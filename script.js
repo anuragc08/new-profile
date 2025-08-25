@@ -2,6 +2,13 @@
 fetch("data.json")
   .then(response => response.json())
   .then(data => {
+      // Mobile menu toggle
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
     // Skills
     const skillsContainer = document.getElementById("skills-container");
     data.skills.forEach(skill => {
