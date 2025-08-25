@@ -1,0 +1,39 @@
+{
+    "name": "Anurag Narayan Chaubey",
+    "title": "Full Stack Developer | AI/ML Enthusiast",
+    "email": "anuragc08@gmail.com",
+    "github": "https://github.com/anuragc08",
+    "linkedin": "https://www.linkedin.com/in/anuragc08",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Python",
+        "Machine Learning",
+        "AI"
+    ],
+    "projects": [
+        {
+            "title": "Educational Institute Management System",
+            "description": "Role-based dashboards, timetable generation, test module, analytics, Google login & OTP auth.",
+            "tech": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Redux Toolkit",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "title": "AI-Powered Portfolio Assistant",
+            "description": "Dynamic resume + portfolio generator with centralized JSON data.",
+            "tech": [
+                "JavaScript",
+                "TailwindCSS",
+                "OpenAI API"
+            ]
+        }
+    ]
+}
